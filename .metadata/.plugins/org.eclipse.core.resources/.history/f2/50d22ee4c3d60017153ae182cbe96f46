@@ -1,0 +1,13 @@
+package variables;
+
+public class StillUsingVariables 
+{
+	public static void main( String[] args )
+	{
+		int myName = tanya;
+		String subject = "2019";
+		
+		System.out.println("my name is " + myName + "and I'll graduate in " + subject); 
+	}
+
+}
