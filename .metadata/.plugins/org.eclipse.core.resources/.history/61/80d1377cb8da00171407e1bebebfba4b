@@ -39,7 +39,7 @@ public class SpaceBoxing
 		}		
 		else if ( planet == 4 )
 		{
-			System.out.println("Your weight would be " + (weight*1.05) + " pounds on that planet.");
+			System.out.println("Your weight would be " + (weight*1.05) + "pounds on that planet.");
 		}		
 		else if ( planet == 5 )
 		{
