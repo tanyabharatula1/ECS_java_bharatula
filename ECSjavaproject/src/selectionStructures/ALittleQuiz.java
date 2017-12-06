@@ -1,0 +1,73 @@
+package selectionStructures;
+import java.util.Scanner;
+public class ALittleQuiz 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int answer;
+		
+		System.out.println("Q1: What is the capotal of Alaska?");
+		System.out.println("1) Melbourn");
+		System.out.println("2) Anchorage");
+		System.out.println("3) Juneau");
+		answer = keyboard.nextInt();
+		
+		if ( answer == 1 )
+		{
+		System.out.println("Sorry, the answer is Juneau");
+		}
+		else if ( answer == 2 )
+		{
+		System.out.println("Sorry, the answer is Juneau");
+		}
+		else if ( answer == 3 )
+		{
+		System.out.println("Correct");
+		}
+		
+		
+		System.out.println("Q2: Can you store the value cat in a variable of type int?");
+		System.out.println("1) No");
+		System.out.println("2) Yes");
+		answer = keyboard.nextInt();
+		
+		if ( answer == 1 )
+		{
+		System.out.println("correct");
+		}
+		else if ( answer == 2 )
+		{
+		System.out.println("Sorry, its no becuase cat is a string and ints can only store numbers.");
+		}
+		else if ( answer == 3 )
+		{
+		System.out.println("Correct");
+		}
+		
+		
+		System.out.println("Q3: What is the result of 9+6/3?");
+		System.out.println("1) 5");
+		System.out.println("2) 11");
+		System.out.println("3) 3");
+		answer = keyboard.nextInt();
+		
+		if ( answer == 1 )
+		{
+		System.out.println("Sorry, the answer is 11");
+		}
+		else if ( answer == 2 )
+		{
+		System.out.println("correct");
+		}
+		else if ( answer == 3 )
+		{
+		System.out.println("Sorry, the answer is Juneau");
+		}
+		
+		System.out.println("Overall, u got " + answer + " out of 3 correct. Thanks for playing");
+		
+	}
+
+}

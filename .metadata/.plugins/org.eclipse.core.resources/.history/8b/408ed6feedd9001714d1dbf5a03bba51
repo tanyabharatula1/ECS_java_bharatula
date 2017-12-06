@@ -1,0 +1,31 @@
+package selectionStructures;
+import java.util.Scanner;
+public class ALittleQuiz 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int answer;
+		
+		System.out.println("Q1: What is the capotal of Alaska?");
+		System.out.println("1) Melbourn");
+		System.out.println("2) Anchorage");
+		System.out.println("3) Juneau");
+		answer = keyboard.nextInt();
+		
+		if ( answer == 1 )
+		{
+		System.out.println("Sorry, the answer is Juneau");
+		}
+		else if ( answer == 2 )
+		{
+		System.out.println("Sorry, the answer is Juneau");
+		}
+		else if ( answer == 3 )
+		{
+		System.out.println("Correct");
+		}
+	}
+
+}
