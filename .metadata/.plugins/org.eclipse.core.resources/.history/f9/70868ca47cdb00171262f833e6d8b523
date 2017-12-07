@@ -1,0 +1,25 @@
+package whileLoops;
+import java.util.Scanner;
+import java.util.Random;
+public class FlipAgain 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random rng = new Random();
+		
+		String again;
+		
+		do
+		{
+			int flip = rng.nextInt(2);
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

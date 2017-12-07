@@ -1,0 +1,27 @@
+package wHILELOOPSSSSS;
+import java.util.Scanner;
+import java.util.Random;
+public class KeepGuessing
+{
+	public static void main(String[] args)
+	{
+		Random r = new Random();
+		int x = 1 + r.nextInt(10), y;
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("I have chosen a number between 1 and 10. Try to guess it.");
+		System.out.println("your guess: ");
+		y = keyboard.nextInt();
+		
+		while ( x != y )
+		{
+			System.out.println("That is incorrect. Guess again");
+			System.out.println("your guess: ");
+			y = keyboard.nextInt();
+		}
+		System.out.println("Thats right! youre a good guesser");
+		}
+		
+	}
+
+}
